@@ -26,6 +26,7 @@ function App() {
   
   return (
     <>
+      {/* code editor  */}
       <div className="pane top-pane">
         <Editor 
           language='xml' 
@@ -47,6 +48,7 @@ function App() {
           onChange={setJs} 
         />
       </div>
+      {/* output view */}
       <div className="pane">
         <iframe 
           srcDoc={srcDoc}
